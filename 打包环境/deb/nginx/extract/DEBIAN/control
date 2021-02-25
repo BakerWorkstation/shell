@@ -1,0 +1,6 @@
+Package: nginx
+Version: 1.12.1
+Architecture: arm64
+Maintainer: Antiy <antiy@antiy-virtual-machine>
+Description: nginx
+

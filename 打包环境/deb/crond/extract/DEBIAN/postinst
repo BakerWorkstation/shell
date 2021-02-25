@@ -1,0 +1,6 @@
+#! /bin/bash
+
+mv /opt/iepCrond/iepCrond.service  /lib/systemd/system/
+
+systemctl daemon-reload && systemctl enable iepCrond.service
+

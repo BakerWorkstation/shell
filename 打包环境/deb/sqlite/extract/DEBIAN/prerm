@@ -1,0 +1,5 @@
+#! /bin/bash
+
+unlink  /usr/bin/sqlite3
+
+rm -rf /opt/sqlite3

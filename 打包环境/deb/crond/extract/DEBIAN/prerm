@@ -1,0 +1,7 @@
+#! /bin/bash
+
+systemctl  stop  iepCrond
+systemctl  disable  iepCrond.service
+rm -f /lib/systemd/system/iepCrond.service
+
+rm -rf /opt/iepCrond

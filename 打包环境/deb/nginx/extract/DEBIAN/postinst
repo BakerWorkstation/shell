@@ -1,0 +1,11 @@
+#! /bin/bash
+
+test -d /etc/nginx || mkdir /etc/nginx
+\cp -rpf /opt/nginx/Conf/*    /etc/nginx/
+mv /opt/nginx/nginx.service  /lib/systemd/system/
+test -d /var/log/nginx || mkdir /var/log/nginx
+
+systemctl daemon-reload && systemctl enable nginx.service
+
+rm -rf /opt/nginx/Conf
+

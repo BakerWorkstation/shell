@@ -1,0 +1,9 @@
+#! /bin/bash
+
+systemctl  stop  nginx
+systemctl  disable  nginx.service
+rm -rf /etc/nginx/
+rm -rf /opt/nginx/
+rm -f /lib/systemd/system/nginx.service
+
+rm -rf /var/log/nginx

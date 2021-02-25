@@ -1,0 +1,4 @@
+#! /bin/bash
+
+test -f /usr/bin/sqlite3 || ln -s /opt/sqlite3/bin/sqlite3  /usr/bin/sqlite3 
+

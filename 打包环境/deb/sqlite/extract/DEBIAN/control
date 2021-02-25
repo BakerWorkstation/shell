@@ -1,0 +1,6 @@
+Package: sqlite3
+Version: 3.8.7
+Architecture: arm64
+Maintainer: Antiy <antiy@antiy-virtual-machine>
+Description: sqlite3
+
